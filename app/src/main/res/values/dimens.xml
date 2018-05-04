@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">150dp</dimen>
+    <dimen name="title_textSize">56sp</dimen>
+    <dimen name="margin_value">30dp</dimen>
+    <dimen name="layout_marginBottom">20dp</dimen>
+    <dimen name="cardview_default_elevation">10dp</dimen>
+</resources>
