@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -28,7 +29,7 @@ public class MainFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-        Button Button1 = (Button)rootView.findViewById(R.id.events);
+        Button Button1 = rootView.findViewById(R.id.events);
 
         Button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -40,7 +41,7 @@ public class MainFragment extends Fragment {
             }
         });
 
-        Button Button = (Button)rootView.findViewById(R.id.weather);
+        Button Button = rootView.findViewById(R.id.weather);
 
         Button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
