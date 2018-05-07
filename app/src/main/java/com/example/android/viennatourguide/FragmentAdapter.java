@@ -20,19 +20,21 @@ public class FragmentAdapter extends FragmentPagerAdapter{
     public Fragment getItem(int position) {
         if (position == 0) {
             return new MainFragment();
-        } else if (position == 1){
+        } else if (position == 1) {
             return new HotelFragment();
-        } else if (position == 2){
+        } else if (position == 2) {
             return new RestaurantFragment();
-        } else {
+        } else if (position == 3) {
             return new SightseeingFragment();
+        } else {
+            return new NightlifeFragment();
         }
     }
 
     // This determines the number of tabs
     @Override
     public int getCount() {
-        return 4;
+        return 5;
     }
 
     // This determines the title for each tab
@@ -48,6 +50,8 @@ public class FragmentAdapter extends FragmentPagerAdapter{
                 return mContext.getString(R.string.category_restaurant);
             case 3:
                 return mContext.getString(R.string.category_sightseeing);
+            case 4:
+                return mContext.getString(R.string.category_nightlife);
             default:
                 return null;
         }

@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">ViennaTourGuide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="category_hotel">Hotels</string>
-    <string name="category_restaurant">Restaurant</string>
-    <string name="category_sightseeing">Sightseeing</string>
+    <!-- categories -->
+    <string name="category_hotel">Sleep</string>
+    <string name="category_restaurant">Food</string>
+    <string name="category_sightseeing">Sights</string>
     <string name="category_main">General</string>
+    <string name="category_nightlife">Bars</string>
+
+
     <string name="title_activity_maps">Map</string>
+
 </resources>

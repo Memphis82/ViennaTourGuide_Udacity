@@ -35,10 +35,6 @@
             style="@style/ButtonStyle"
             android:text="Weather" />
 
-        <Button
-            android:id="@+id/test"
-            style="@style/ButtonStyle"
-            android:text="Events" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

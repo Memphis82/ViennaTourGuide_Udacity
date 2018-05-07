@@ -31,19 +31,19 @@ public class HotelFragment extends Fragment {
 
         // Create a hotellist
         final ArrayList<Data> data = new ArrayList<Data>();
-        data.add(new Data("Steigenberger", "Herrengasse", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
-        data.add(new Data("Hilton", "Ring", -1, 25.093163, 55.159065));
-        data.add(new Data("Ritz", "Donauufer", -1, 25.093163, 55.159065));
-        data.add(new Data("25 Hours", "Graben", -1, 25.093163, 55.159065));
-        data.add(new Data("Imperial", "Schottentor", -1, 25.093163, 55.159065));
-        data.add(new Data("Steigenberger", "Herrengasse", -1, 25.093163, 55.159065));
-        data.add(new Data("Hilton", "Ring", -1, 25.093163, 55.159065));
-        data.add(new Data("Ritz", "Donauufer", -1, 25.093163, 55.159065));
-        data.add(new Data("25 Hours", "Graben", -1, 25.093163, 55.159065));
-        data.add(new Data("Imperial", "Schottentor", -1, 25.093163, 55.159065));
+        data.add(new Data("Hollmann Beletage Design & Boutique Hotel", "Köllnerhofgasse 6, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("Hotel Sacher Wien", "Philharmoniker-Straße 4, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("Boutiquehotel Das Tyrol", "Mariahilfer Straße 15, 1060 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("The Guesthouse Vienna", "Führichgasse 10, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("Park Hyatt Vienna", "Am Hof 2, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("Hotel Imperial", "Kärntner Ring 16, 1015 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("Hotel Am Stephansplatz", "Stephansplatz 9, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("Sofitel Vienna Stephansdom", "Praterstraße 1, 1020 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("The Ritz-Carlton", "Schubertring 5-7, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+        data.add(new Data("Steigenberger Hotel Herrenhof", "Herrengasse 10, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
 
         DataAdapter adapter = new DataAdapter(getActivity(), data, R.color.colorPrimaryDark);
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;
