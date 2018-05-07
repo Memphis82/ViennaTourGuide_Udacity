@@ -1,0 +1,88 @@
+Index: app/src/main/java/com/example/android/viennatourguide/Data.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/android/viennatourguide/Data.java	(date 1525706325000)
++++ app/src/main/java/com/example/android/viennatourguide/Data.java	(date 1525706727573)
+@@ -23,21 +23,13 @@
+          */
+         private static final int NO_IMAGE_RESOURCE = -1;
+ 
+-        // Google Map longitude coordinate
+-         private double mLongitude;;
+-
+-         // Google Map latitude coordinate
+-         private double mLatitude;
+ 
+-
+-
+-        public Data(String name, String location, int imageResourceId, double latitude, double longitude) {
++    public Data(String name, String location, int imageResourceId) {
+             mName = name;
+             mLocation = location;
+             mImageResourceId = imageResourceId;
+-            mLongitude = longitude;
+-            mLatitude = latitude;
+-        }
++
++    }
+ 
+         /**
+          * getName() function is used to get the Name of the place, hospital etc.
+@@ -66,21 +58,6 @@
+             return mImageResourceId;
+         }
+ 
+-    /**
+-     * Get the longitude of the attraction
+-     */
+-    public double getLongitude() {
+-
+-        return mLongitude;
+-    }
+-
+-    /**
+-     * Get the latitude of the attraction
+-     */
+-    public double getLatitude() {
+-
+-        return mLatitude;
+-    }
+         /**
+          * @return boolean value
+          */
+Index: app/src/main/java/com/example/android/viennatourguide/HotelFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/android/viennatourguide/HotelFragment.java	(date 1525706325000)
++++ app/src/main/java/com/example/android/viennatourguide/HotelFragment.java	(date 1525706623010)
+@@ -31,16 +31,16 @@
+ 
+         // Create a hotellist
+         final ArrayList<Data> data = new ArrayList<Data>();
+-        data.add(new Data("Hollmann Beletage Design & Boutique Hotel", "Köllnerhofgasse 6, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("Hotel Sacher Wien", "Philharmoniker-Straße 4, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("Boutiquehotel Das Tyrol", "Mariahilfer Straße 15, 1060 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("The Guesthouse Vienna", "Führichgasse 10, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("Park Hyatt Vienna", "Am Hof 2, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("Hotel Imperial", "Kärntner Ring 16, 1015 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("Hotel Am Stephansplatz", "Stephansplatz 9, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("Sofitel Vienna Stephansdom", "Praterstraße 1, 1020 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("The Ritz-Carlton", "Schubertring 5-7, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
+-        data.add(new Data("Steigenberger Hotel Herrenhof", "Herrengasse 10, 1010 Wien", R.drawable.ic_local_hotel_black_24dp, 25.093163, 55.159065));
++        data.add(new Data("Hollmann Beletage Design & Boutique Hotel", "Köllnerhofgasse 6, 1010 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("Hotel Sacher Wien", "Philharmoniker-Straße 4, 1010 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("Boutiquehotel Das Tyrol", "Mariahilfer Straße 15, 1060 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("The Guesthouse Vienna", "Führichgasse 10, 1010 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("Park Hyatt Vienna", "Am Hof 2, 1010 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("Hotel Imperial", "Kärntner Ring 16, 1015 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("Hotel Am Stephansplatz", "Stephansplatz 9, 1010 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("Sofitel Vienna Stephansdom", "Praterstraße 1, 1020 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("The Ritz-Carlton", "Schubertring 5-7, 1010 Wien", R.drawable.ic_local_hotel_black_24dp));
++        data.add(new Data("Steigenberger Hotel Herrenhof", "Herrengasse 10, 1010 Wien", R.drawable.ic_local_hotel_black_24dp));
+ 
+         DataAdapter adapter = new DataAdapter(getActivity(), data, R.color.colorPrimaryDark);
+         ListView listView = rootView.findViewById(R.id.list);

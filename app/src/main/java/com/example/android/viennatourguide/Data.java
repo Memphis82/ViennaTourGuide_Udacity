@@ -23,21 +23,13 @@ public class Data {
          */
         private static final int NO_IMAGE_RESOURCE = -1;
 
-        // Google Map longitude coordinate
-         private double mLongitude;;
 
-         // Google Map latitude coordinate
-         private double mLatitude;
-
-
-
-        public Data(String name, String location, int imageResourceId, double latitude, double longitude) {
+    public Data(String name, String location, int imageResourceId) {
             mName = name;
             mLocation = location;
             mImageResourceId = imageResourceId;
-            mLongitude = longitude;
-            mLatitude = latitude;
-        }
+
+    }
 
         /**
          * getName() function is used to get the Name of the place, hospital etc.
@@ -66,21 +58,6 @@ public class Data {
             return mImageResourceId;
         }
 
-    /**
-     * Get the longitude of the attraction
-     */
-    public double getLongitude() {
-
-        return mLongitude;
-    }
-
-    /**
-     * Get the latitude of the attraction
-     */
-    public double getLatitude() {
-
-        return mLatitude;
-    }
         /**
          * @return boolean value
          */
