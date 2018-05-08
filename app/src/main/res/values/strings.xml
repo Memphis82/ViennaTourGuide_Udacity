@@ -9,6 +9,114 @@
     <string name="category_sightseeing">Sights</string>
     <string name="category_main">Main</string>
     <string name="category_nightlife">Bars</string>
+    <string name="category_event">Event</string>
+    <string name="category_weather">Weather</string>
+    <string name="category_city">Vienna</string>
+
+
+    <string name="url_weather">https://weather.com/weather/today/l/48.21,16.37</string>
+    <string name="url_event">https://www.events.at/c/wien/party</string>
+
+    <!-- hotels-->
+    <string name="name_hotel1">Hollmann Beletage Design /Boutique Hotel</string>
+    <string name="name_hotel2">Hotel Sacher Wien</string>
+    <string name="name_hotel3">Boutiquehotel Das Tyrol</string>
+    <string name="name_hotel4">The Guesthouse Vienna</string>
+    <string name="name_hotel5">Park Hyatt Vienna</string>
+    <string name="name_hotel6">Hotel Imperial</string>
+    <string name="name_hotel7">Hotel Am Stephansplatz</string>
+    <string name="name_hotel8">Sofitel Vienna Stephansdom</string>
+    <string name="name_hotel9">The Ritz-Carlton</string>
+    <string name="name_hotel10">Steigenberger Hotel Herrenhof</string>
+
+    <!-- hotel address-->
+    <string name="address_hotel1">Köllnerhofgasse 6, 1010 Wien</string>
+    <string name="address_hotel2">Philharmoniker-Straße 4, 1010 Wien</string>
+    <string name="address_hotel3">Mariahilfer Straße 15, 1060 Wien</string>
+    <string name="address_hotel4">Führichgasse 10, 1010 Wien</string>
+    <string name="address_hotel5">Am Hof 2, 1010 Wien</string>
+    <string name="address_hotel6">Kärntner Ring 16, 1015 Wien</string>
+    <string name="address_hotel7">Stephansplatz 9, 1010 Wien</string>
+    <string name="address_hotel8">Praterstraße 1, 1020 Wien</string>
+    <string name="address_hotel9">Schubertring 57, 1010 Wien</string>
+    <string name="address_hotel10">Herrengasse 10, 1010 Wien</string>
+
+
+    <!-- bars-->
+    <string name="name_bar1">Look Bar</string>
+    <string name="name_bar2">First Floor</string>
+    <string name="name_bar3">If Dogs Run Free</string>
+    <string name="name_bar4">Chillout Lounge</string>
+    <string name="name_bar5">Kruger’s American Bar</string>
+    <string name="name_bar6">Lutz Bar</string>
+    <string name="name_bar7">25hours Hotel Dachboden</string>
+    <string name="name_bar8">Loosbar</string>
+    <string name="name_bar9">Puff Bar</string>
+    <string name="name_bar10">The Sign</string>
+
+
+    <!-- bar address-->
+    <string name="address_bar1">Salzgries 17, 1010 Wien</string>
+    <string name="address_bar2">Seitenstettengasse 5, 1010 Wien</string>
+    <string name="address_bar3">Gumpendorfer Straße 10, 1060 Wien</string>
+    <string name="address_bar4">Salvatorgasse 6, 1010 Wien</string>
+    <string name="address_bar5">Krugerstraße 5, 1010 Wien</string>
+    <string name="address_bar6">Mariahilfer Straße 3, 1060 Wien</string>
+    <string name="address_bar7">Lerchenfelderstraße 1-3, 1070 Wien</string>
+    <string name="address_bar8">Kärntner Durchgang 10, 1010 Wien</string>
+    <string name="address_bar9">Girardigasse 10, 1060 Wien</string>
+    <string name="address_bar10">Liechtensteinstraße 104 – 106</string>
+
+
+    <!-- restaurants-->
+    <string name="name_restaurant1">Spelunke</string>
+    <string name="name_restaurant2">Flatchers Steakhouse</string>
+    <string name="name_restaurant3">Weinschenke</string>
+    <string name="name_restaurant4">Gasthaus Wild</string>
+    <string name="name_restaurant5">Skopik / Lohn</string>
+    <string name="name_restaurant6">Wein.Raum</string>
+    <string name="name_restaurant7">1500 Foodmakers</string>
+    <string name="name_restaurant8">Zum alten Fassl</string>
+    <string name="name_restaurant9">Kent</string>
+    <string name="name_restaurant10">Plachuttas Gasthaus zur Oper</string>
+
+
+    <!-- restaurant addresses-->
+    <string name="address_restaurant1">Taborstraße 1, 1020 Wien</string>
+    <string name="address_restaurant2">Kaiserstraße 113-115, 1070 Wien</string>
+    <string name="address_restaurant3">Franzensgasse 11, 1050 Wien</string>
+    <string name="address_restaurant4">Radetzkyplatz 1, 1030 Wien</string>
+    <string name="address_restaurant5">Leopoldsgasse 17, 1020 Wien</string>
+    <string name="address_restaurant6">Piaristengasse 41, 1080 Wien</string>
+    <string name="address_restaurant7">Lerchenfelderstraße 1-3, 1070 Wien</string>
+    <string name="address_restaurant8">Ziegelofengasse 37, 1050 Wien</string>
+    <string name="address_restaurant9">Brunnengasse 67, 1160 Wien</string>
+    <string name="address_restaurant10">Walfischgasse 5-7, 1010 Wien</string>
+
+    <!-- sights-->
+    <string name="name_sight1">Schloss Schönbrunn</string>
+    <string name="name_sight2">Naschmarkt</string>
+    <string name="name_sight3">Schloss Belvedere</string>
+    <string name="name_sight4">Stephansdom</string>
+    <string name="name_sight5">Museumsquartier</string>
+    <string name="name_sight6">Wiener Prater</string>
+    <string name="name_sight7">Hofburg</string>
+    <string name="name_sight8">Kunsthistorisches Museum</string>
+    <string name="name_sight9">Tiergarten Schönbrunn</string>
+    <string name="name_sight10">Albertina</string>
+
+
+    <!-- sights addresses-->
+    <string name="address_sight1">Schönbrunner Schloßstraße 47, 1130 Wien</string>
+    <string name="address_sight2">Naschmarkt, 1060 Wien</string>
+    <string name="address_sight3">Prinz Eugen-Straße 27, 1030 Wien</string>
+    <string name="address_sight4">Stephansplatz 3, 1010 Wien</string>
+    <string name="address_sight5">Museumsplatz 1, 1070 Wien</string>
+    <string name="address_sight6">Prater, 1020 Wien</string>
+    <string name="address_sight7">Michaelerkuppel, 1010 Wien</string>
+    <string name="address_sight8">Maria-Theresien-Platz, 1010 Wien</string>
+    <string name="address_sight9">Maxingstraße 13b, 1130 Wien</string>
+    <string name="address_sight10">Albertinaplatz 1, 1010 Wien</string>
 
 
     <string name="title_activity_maps">Map</string>

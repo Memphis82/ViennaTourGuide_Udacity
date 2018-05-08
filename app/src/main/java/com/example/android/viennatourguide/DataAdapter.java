@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class DataAdapter extends ArrayAdapter<Data>{
+public class DataAdapter extends ArrayAdapter<Data> {
 
     /**
      * mColorResourceId is used to store the color of the list item.
@@ -32,28 +32,22 @@ public class DataAdapter extends ArrayAdapter<Data>{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
         View listItemView = convertView;
-
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
         // Get the {@link AndroidFlavor} object located at this position in the list
         Data currentHotel = getItem(position);
-
 //
         View textContainer = listItemView.findViewById(R.id.text_container);
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         textContainer.setBackgroundColor(color);
-
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.name);
+        TextView nameTextView = listItemView.findViewById(R.id.name);
         nameTextView.setText(currentHotel.getName());
-
-        TextView locationTextView = (TextView) listItemView.findViewById(R.id.location);
+        TextView locationTextView = listItemView.findViewById(R.id.location);
         locationTextView.setText(currentHotel.getLocation());
-
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = listItemView.findViewById(R.id.image);
         if (currentHotel.hasImage()) {
             imageView.setImageResource(currentHotel.getImageResourceId());
         } else {

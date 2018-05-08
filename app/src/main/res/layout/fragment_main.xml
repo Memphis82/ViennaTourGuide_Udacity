@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/prater"
-        android:scaleType="fitXY" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/prater"
+            android:scaleType="fitXY"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Vienna"
-        android:textSize="@dimen/title_textSize"
-        android:textAlignment="center"
-        android:textColor="#F0FFFF"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/category_city"
+            android:textSize="@dimen/title_textSize"
+            android:textAlignment="center"
+            android:textColor="#F0FFFF"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:gravity="bottom">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom">
 
         <Button
-            android:id="@+id/events"
-            style="@style/ButtonStyle"
-            android:text="Events" />
+                android:id="@+id/events"
+                style="@style/ButtonStyle"
+                android:text="@string/category_event"/>
 
         <Button
-            android:id="@+id/weather"
-            style="@style/ButtonStyle"
-            android:text="Weather" />
+                android:id="@+id/weather"
+                style="@style/ButtonStyle"
+                android:text="@string/category_weather"/>
 
     </LinearLayout>
 
